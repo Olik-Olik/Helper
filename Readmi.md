@@ -1,8 +1,6 @@
-
-
 ```mermaid
 graph LR;
-  Хочешь перенести свой проект на  GitHub? -- "Скопируй SSH?" --> ready;
+
   ready    -- "Создаем директорию локально $ mkdir lesson"     --> ready_dir;
   ready_dir  -- "Переходим в нее $ cd lesson" --> ready_changedir;
   ready_changedir  -- "Инициализируем гит $ git init" --> ready_gitinit;
@@ -11,4 +9,13 @@ graph LR;
   readyadd -- "Перый коммит с комментом git commit -m 'Добавить README'"  --> readycommit;
   readycommit -- "Добавляем все наши файлв в удаленный репозиторий git remote add origin ///далее ссылка SSH вашего репозитория на ГитХаб " --> readygitremote;
   readygitremote --> "Пушим $ git push -u origin main " --readypush;
+``` 
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
 ``` 
