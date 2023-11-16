@@ -4,13 +4,13 @@ HEAD -- это голова.
 <тут пустая строка!>
 
 ```mermaid
-graph LR
+graph TD;
 %% описание схемы
-
-flowchart TD
-A[Хочешь перенести свой проект на  GitHub?] --› B{Сделал новый проект на GitHub};
-B -- Yes --› C[Скопируй SSH];
-B -- No --› D [Do it!];
+graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
 
 
 ```
