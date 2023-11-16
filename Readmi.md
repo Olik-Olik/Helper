@@ -11,12 +11,3 @@ graph LR;
   readycommit -- "Добавляем все наши файлв в удаленный репозиторий git remote add origin ///далее ссылка SSH вашего репозитория на ГитХаб " --> readygitremote;
   readygitremote -- "Пушим $ git push -u origin main " -->readypush;
 ``` 
-
-```mermaid
-graph LR;
-    Хочешь_перенести_на_GitHub -- "Скопируй SSH?" --> ready;
-  ready    -- "???"     --> tracked/comitted;
-
-%% стрелка без текста для примера: 
-  A --> B;
-``` 
