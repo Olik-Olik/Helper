@@ -1,7 +1,7 @@
 
 ```mermaid
 graph TD;
-  Хочешь_перенести_на_GitHub -- "Скопируй SSH?" --> ready;
+  Хочешь_перенести_на_GitHub -- "Скопируй SSH" --> ready;
   ready -- "Создаем директорию локально $ mkdir lesson"     --> ready_dir;
   ready_dir -- "Переходим в нее $ cd lesson" --> ready_changedir;
 
