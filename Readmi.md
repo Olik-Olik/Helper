@@ -6,7 +6,7 @@ HEAD -- это голова.
 ```mermaid
 graph TD;
 flowchart TD
-A"Хочешь перенести свой проект на  GitHub?" --› B"Сделал новый проект на GitHub";
+"Хочешь перенести свой проект на  GitHub?" --› "Сделал новый проект на GitHub";
 B -- Yes --› C"Скопируй SSH";
 B -- No --› D "Do it!";
 C ---- Yes --› F"Создаем директорию локально $ mkdir lesson";
