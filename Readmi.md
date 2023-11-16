@@ -2,11 +2,6 @@
 
 ```mermaid
 graph LR;
-Хочешь перенести свой проект на  GitHub? -- "Хочешь перенести свой проект на  GitHub?" --› Скопируй SSH;
-```
-
-```mermaid
-graph LR;
   Хочешь перенести свой проект на  GitHub? -- "Скопируй SSH?" --> ready;
   ready    -- "Создаем директорию локально $ mkdir lesson"     --> ready_dir;
   ready_dir  -- "Переходим в нее $ cd lesson" --> ready_changedir;
