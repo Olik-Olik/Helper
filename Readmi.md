@@ -4,8 +4,7 @@ HEAD -- это голова.
 <тут пустая строка!>
 
 ```mermaid
-graph TD;
-flowchart TD
+graph LD;
 "Хочешь перенести свой проект на  GitHub?" --› "Сделал новый проект на GitHub";
 B -- Yes --› C"Скопируй SSH";
 B -- No --› D "Do it!";
