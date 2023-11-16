@@ -1,6 +1,7 @@
+
 ```mermaid
 graph LR;
-
+  Хочешь перенести свой проект на  GitHub?    -- "Скопируй SSH?" --> ready;
   ready    -- "Создаем директорию локально $ mkdir lesson"     --> ready_dir;
   ready_dir  -- "Переходим в нее $ cd lesson" --> ready_changedir;
   ready_changedir  -- "Инициализируем гит $ git init" --> ready_gitinit;
@@ -8,7 +9,7 @@ graph LR;
   ready_createfile -- "Добавляем все наши файлы $ git add . или выбранный $ git add README.md" --> readyadd;
   readyadd -- "Перый коммит с комментом git commit -m 'Добавить README'"  --> readycommit;
   readycommit -- "Добавляем все наши файлв в удаленный репозиторий git remote add origin ///далее ссылка SSH вашего репозитория на ГитХаб " --> readygitremote;
-  readygitremote --> "Пушим $ git push -u origin main " --readypush;
+  readygitremote -- "Пушим $ git push -u origin main " -->readypush;
 ``` 
 
 ```mermaid
