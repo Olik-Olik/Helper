@@ -12,3 +12,4 @@ graph TD;
   readycommit -- "Добавляем все наши файлв в удаленный репозиторий git remote add origin ///далее ссылка SSH вашего репозитория на ГитХаб " --> readygitremote;
   readygitremote -- "Пушим $ git push -u origin main " -->readypush;
 
+```
